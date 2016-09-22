@@ -1,7 +1,7 @@
 jQuery(function( $ ){
 
     $('#njmapimg').mapster({
-        fillColor: '0000ff',
+        fillColor: 'ffffff',
         fillOpacity: 0.3
     });
 
