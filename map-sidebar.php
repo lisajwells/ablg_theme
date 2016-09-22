@@ -4,6 +4,11 @@
 * Description: Used for Jobs in County pages
 */
 
+add_action('genesis_entry_header', 'ablg_do_apply_button');
+function ablg_do_apply_button() {
+    echo '<a class="indexButton" style="margin-top: 0px;" title="Careers at ABLG" href="http://ablg.curioelectro.com/who-are-you/for-professionals/careers-at-ablg" target="_blank">Click Here to Apply</a>';
+}
+
 add_action('get_header','ablg_change_genesis_sidebar');
 function ablg_change_genesis_sidebar() {
     //if ( is_page_template( 'map-sidebar.php' ) ) {
