@@ -13,7 +13,7 @@
 	Template Version: 2.0
 
 	License: GPL-2.0+
-	License URI: http://www.opensource.org/licenses/gpl-license.php 
+	License URI: http://www.opensource.org/licenses/gpl-license.php
 */
 
 
@@ -154,7 +154,7 @@ html {
 
 body {
 	color: #222;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 16px;
 	font-size: 1.6rem;
 	font-weight: 300;
@@ -252,6 +252,10 @@ cite {
 	padding-top:40px;
 	clear:both;
 	}
+.centerIt {
+	text-align:center;
+	margin-bottom:20px;
+	}
 .qafp-faq-title {
 	padding: 10px;
 	width:100%;
@@ -339,17 +343,24 @@ cite {
 	margin-bottom:40px;
 	}
 .journalBullets {
-	clear:both; 
-	margin-top:40px; 
+	clear:both;
+	margin-top:40px;
 	text-align:left;
-	width:40%; 
-	margin-left:30%;	
+	width:40%;
+	margin-left:30%;
 	}
 .paypal {
 	width:180px;
 	max-width:180px;
 	margin-top:-40px;
 	}
+.border {
+	border:1px solid #aaa;
+	padding:20px;
+	text-align:center;
+	margin:30px 0px;
+	}
+
 /* Headings
 --------------------------------------------- */
 .glory {
@@ -380,7 +391,7 @@ h4,
 h5,
 h6 {
 	color: #000;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
    	font-weight: 300;
 	line-height: 1.2;
 	margin: 0 0 15px;
@@ -448,7 +459,7 @@ textarea {
 	border: 1px solid #ddd;
 	border-radius: 5px;
 	color: #333;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 16px;
 	font-size: 1.6rem;
 	font-weight: 300;
@@ -482,7 +493,7 @@ input[type="submit"],
 	box-shadow: none;
 	color: #fff;
 	cursor: pointer;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 300;
 	padding: 5px 24px;
 	padding: .5rem 2.4rem;
@@ -636,6 +647,10 @@ Structure and Layout
 	max-width:80%;
 	margin-left:10%;
 	}
+.wide {
+	width:80%!important;
+	margin:10px 10% !important;
+}
 .home-topleft {
 height: auto;
 width:1140px;
@@ -649,29 +664,29 @@ text-align:left;
 .home-topleft .home-topleft-full {
 padding: 0px;
 }
- 
+
 .home-topleft .widget {
 width:600px;
 padding-top:16px;
 padding-bottom:0px;
 
 }
- 
+
 .home-topleft .widget-wrap {
 
 }
- 
+
 .home-topleft h2 {
- 
+
 }
- 
+
 .home-topleft h4 {
 font-size: 20px;
 font-size: 2rem;
 }
- 
+
 .home-topleft p {
- 
+
 }
 
 
@@ -686,34 +701,34 @@ text-align:right;
 padding-right:64px;
 
 }
- 
+
 .home-top .home-top-full {
 padding: 0px;
 }
- 
+
 .home-top .widget {
-	
+
 }
- 
+
 .home-top .widget-wrap {
- 
+
 }
- 
+
 .home-top h2 {
- 
+
 }
- 
+
 .home-top h4 {
 font-size: 20px;
 font-size: 2rem;
 }
- 
-.home-top p {
- 
-}
- 
 
- 
+.home-top p {
+
+}
+
+
+
 
 
 
@@ -802,8 +817,8 @@ a.cta-button:hover {
 }
 
 #mc_embed_signup{
-	background:#fff; 
-	clear:left; 
+	background:#fff;
+	clear:left;
 	padding-top:0px !important;
 	}
 #mc_embed_signup .button {
@@ -811,9 +826,9 @@ a.cta-button:hover {
 	color:#fff;
 	border-radius:30px;
 	border:1px solid #EF3E33 !important;
-	
+
 }
-	
+
 
 
 /* Column Widths and Positions
@@ -1017,8 +1032,9 @@ a.alignright {
 --------------------------------------------- */
 
 .breadcrumb {
-	margin-bottom: 40px;
-	margin-bottom: 4rem;
+	margin-bottom: 20px;
+	margin-bottom: 2rem;
+	font-size:14px;
 }
 
 .archive-description,
@@ -1062,6 +1078,15 @@ a.alignright {
 .author-box .avatar {
 	margin-right: 24px;
 	margin-right: 2.4rem;
+}
+
+/* Map Sidebar Pages
+------------------------------------------------------------ */
+
+.page-template-map-sidebar .entry-header .indexButton {
+    display: block;
+    float: none;
+    margin-bottom: 1em;
 }
 
 /* Featured Post Grid
@@ -1184,7 +1209,7 @@ Plugins
 	color: #000;
 	margin-top:-40px;
 	margin-bottom:60px;
-	
+
 }
 
 .enews-widget .widget-title {
@@ -1215,17 +1240,17 @@ Plugins
 
 /* Simple Social Icons Plugin
 */
- 
+
 /*
 .simple-social-icons .social-facebook {
 background-color: blue !important;
 }
 
- 
+
 .simple-social-icons .social-gplus {
 background-color: red !important;
 }
- 
+
 .simple-social-icons .social-instagram  {
 background-color: #406e94 !important;
 }
@@ -1233,15 +1258,15 @@ background-color: #406e94 !important;
 .simple-social-icons .social-pinterest {
 background-color: red !important;
 }
- 
+
 .simple-social-icons .social-rss  {
 background-color: yellow !important;
 }
- 
+
 .simple-social-icons .social-twitter {
 background-color: blue !important;
 }
- 
+
 .simple-social-icons .social-youtube {
 background-color: #c4302b !important;
 }
@@ -1406,7 +1431,7 @@ Site Navigation
 	color: #fff;
 	font-size: 14px;
 	font-size: 1.4rem;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
    	font-weight: 300;
 	line-height: 1.5;
 	width: 100%;
@@ -1436,7 +1461,7 @@ Site Navigation
 }
 
 .genesis-nav-menu > .menu-item > a {
-	
+
 }
 
 .genesis-nav-menu .sub-menu {
@@ -1854,7 +1879,7 @@ Sidebar
 	margin: 0 5px 5px 0;
 	margin: 0 0.5rem 0.5rem 0;
 	padding: 5px 10px;
-	padding: 0.5rem 1rem; 
+	padding: 0.5rem 1rem;
 }
 
 .sidebar .tagcloud a:hover {
@@ -1922,7 +1947,7 @@ Footer Widgets
 	color: #fff;
 	text-align:left;
 	padding-bottom:16px;
-	
+
 }
 
 .footer-widgets li {
@@ -2120,7 +2145,7 @@ Media Queries
 		text-align: center;
 	}
 
-	
+
 	.site-header .search-form {
 		float: none;
 		margin: 0 auto;
@@ -2141,7 +2166,7 @@ Media Queries
 	.minimum .site-tagline {
 		padding-top:0px;
 		margin-top:-40px;
-	
+
 	}
 
 	.genesis-nav-menu li,
@@ -2168,7 +2193,7 @@ Media Queries
 		padding-top:20px;
 		padding-bottom:0px;
 }
-	
+
 	#Image-Maps-Com-image-maps-2014-04-09-155848 {
 		max-width: 30%;
 	}
@@ -2184,7 +2209,7 @@ Media Queries
 		width:100%;
 		background-color:#fff;
 	}
-	
+
 	.minimum-landing .site-container {
 		padding: 5%;
 	}
@@ -2325,11 +2350,11 @@ Media Queries
 	margin-left:0px;
 	}
 	.journalBullets {
-	clear:both; 
-	margin-top:40px; 
+	clear:both;
+	margin-top:40px;
 	text-align:left;
-	width:90%; 
-	margin-left:10%;	
+	width:90%;
+	margin-left:10%;
 	}
 }
 

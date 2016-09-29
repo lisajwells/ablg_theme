@@ -207,7 +207,7 @@ function ablg_map_shortcode() {
 	?>
 
 <div class="map-div">
-<img id="njmapimg" src="http://ablg.dev/wp-content/themes/minimum-pro/images/NewJersey600.png" alt="New Jersey Counties" usemap="#MapNJ" />
+<img id="njmapimg" src="http://ablg.curioelectro.com//wp-content/themes/minimum-pro/images/NewJersey600.png" alt="New Jersey Counties" usemap="#MapNJ" />
 <map name="MapNJ" id="MapNJ">
 <area shape="poly" alt="" coords="352,924, 352,926, 351,929, 349,930, 345,932, 342,932, 340,933, 337,936, 334,939, 333,941, 331,944, 330,948, 328,952, 326,954, 323,956, 321,956, 318,956, 317,956, 317,958, 317,960, 316,960, 314,960, 313,961, 313,962, 315,963, 316,963, 317,963, 317,965, 317,966, 315,968, 313,970, 311,974,
 310,976, 309,978, 308,980, 307,983, 306,984, 305,986, 304,988, 302,989, 301,990, 300,992, 299,995, 298,996, 296,997, 295,997, 295,996, 295,994, 295,993, 296,990, 296,988, 295,988, 294,988, 293,989, 293,991, 292,993, 292,995, 291,996, 288,996, 286,997, 285,998, 285,999, 287,999, 289,999, 290,999, 290,1000, 289,1003, 289,1004,
